@@ -1,6 +1,5 @@
 class Solution:
     def longestOnes(self, nums: list[int], k: int) -> int:
-        hash={}
         low=0
         maxlen=0
         zerocount=0
