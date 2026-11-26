@@ -10,4 +10,11 @@ class Solution:
             else:
                 hash_map[r]-=1
         return True
+
+# class Solution:
+#     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+#         for i in set(ransomNote): # set bna lo duplicate remove 
+#             if ransomNote.count(i) > magazine.count(i): #compare needed letter vs available
+#                 return False
+#         return True
        
